@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to our Blog Website</h1>
+  </header>
+  <main>
+    <section id="recentBlogs">
+      <h2>Recent Blogs</h2>
+      <div id="blogList"></div>
+    </section>
+    <section id="addBlog">
+      <h2>Add a Blog</h2>
+      <form id="blogForm">
+        <div>
+          <label for="authorName">Author Name:</label>
+          <input type="text" id="authorName" name="authorName" required>
+        </div>
+        <div>
+          <label for="place">Place:</label>
+          <input type="text" id="place" name="place">
+        </div>
+        <div>
+          <label for="blogTitle">Blog Title:</label>
+          <input type="text" id="blogTitle" name="blogTitle" required>
+        </div>
+        <div>
+          <label for="blogContent">Blog Content:</label>
+          <textarea id="blogContent" name="blogContent" rows="5" required></textarea>
+        </div>
+        <button type="submit">Submit Blog</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p></p>
+  </footer>
+  <script src="Blog.js"></script>
+  <script src="author.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

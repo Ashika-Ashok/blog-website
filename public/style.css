@@ -1,0 +1,68 @@
+/* Reset CSS */
+html, body, header, main, footer {
+    margin: 10;
+    padding: 10;
+  }
+  
+  body {display:grid;
+    grid-template-columns: repeat(2);
+    font-family: Arial, sans-serif;
+    box-sizing:calc(10 12);
+    box-shadow: #af2086;
+  }
+  
+  header {
+    background-color: #08084c;
+    color: #e3e3ed;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 100px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  textarea {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    align-content: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #20123e;
+    color: #eae8ef;
+    border: rgb(214, 204, 204);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #b2add2;
+  }
+  
+  footer {
+    background-color: #25259d;
+    color: #0b0434;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
